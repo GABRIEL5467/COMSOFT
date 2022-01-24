@@ -212,7 +212,7 @@ const uEstado = (id, estado) => {
     } else {
         let st = "Taller";
         if (estado === 'Taller') {
-            st = "Almacen";
+            st = "Entregado";
         }
         $.ajax({
             url: url,

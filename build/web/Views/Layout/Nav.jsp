@@ -15,7 +15,7 @@
             <a href="Admin" class="nav-link">Dashboard</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="Mantenimientos" class="nav-link">Mantenimiento</a>
+            <a href="Mantenimientos" class="nav-link">Generar Orden</a>
         </li>
     </ul>
 
@@ -119,7 +119,7 @@
                     </li>
                     <li class="nav-item">
                          <a href="Mantenimientos" class="nav-link <c:if test="${nav == 'Mantenimientos'}"> active</c:if>" >
-                            <i class="nav-icon fas fa-paste"></i><p>Mantenimiento</p>
+                            <i class="nav-icon fas fa-paste"></i><p>Generar Orden</p>
                         </a>
                     </li>
                     <li class="nav-item">

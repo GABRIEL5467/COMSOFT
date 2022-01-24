@@ -12,9 +12,9 @@
 <footer class="main-footer">
     <!-- To the right -->
     <div class="float-right d-none d-sm-inline">
-        Anything you want ${msje}
+    COMFRANKLIN.CIA.LTDA  Contacto:0984463249 ${msje}
     </div>
-    <!-- Default to the left -->
+    <!-- Derechos reservados  -->
     <strong>Copyright &copy; 2022 <a href="#">GABRIEL</a>.</strong> All rights reserved.
 </footer>
 </div>
@@ -46,6 +46,6 @@
 <script src="assets/plugins/sweetalert2/sweetalert2.min.js"></script>
 <!-- Toastr -->
 <script src="assets/plugins/toastr/toastr.min.js"></script>
-<!-- AdminLTE App -->
+<!-- AdminCOMSOFT App -->
 <script src="assets/dist/js/adminlte.min.js"></script>
 
