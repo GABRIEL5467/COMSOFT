@@ -1,4 +1,4 @@
-package com.uisrael.comsoft.modelo;
+package com.uisrael.comsoft.conexion;
 
 import com.uisrael.comsoft.modelo.entidades.Parametro;
 import com.mysql.jdbc.jdbc2.optional.MysqlConnectionPoolDataSource;

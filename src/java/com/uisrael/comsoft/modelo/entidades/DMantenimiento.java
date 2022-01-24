@@ -1,4 +1,4 @@
-package com.uisrael.comsoft.modelo;
+package com.uisrael.comsoft.modelo.entidades;
 
 import com.uisrael.comsoft.modelo.entidades.Servicio;
 import com.uisrael.comsoft.modelo.entidades.Mantenimiento;

@@ -1,5 +1,6 @@
 package com.uisrael.comsoft.modelo;
 
+import com.uisrael.comsoft.conexion.Conexion;
 import com.uisrael.comsoft.modelo.entidades.Modelo;
 import com.uisrael.comsoft.modelo.entidades.Marca;
 import java.sql.ResultSet;

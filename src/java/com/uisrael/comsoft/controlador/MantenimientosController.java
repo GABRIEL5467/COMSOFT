@@ -1,7 +1,7 @@
 package com.uisrael.comsoft.controlador;
 
 import com.uisrael.comsoft.modelo.entidades.Cliente;
-import com.uisrael.comsoft.modelo.DMantenimiento;
+import com.uisrael.comsoft.modelo.entidades.DMantenimiento;
 import com.uisrael.comsoft.modelo.entidades.Mantenimiento;
 import com.uisrael.comsoft.modelo.MantenimientoDAO;
 import com.uisrael.comsoft.modelo.entidades.Marca;

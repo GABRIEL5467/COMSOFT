@@ -1,6 +1,5 @@
 package com.uisrael.comsoft.modelo.entidades;
 
-import com.uisrael.comsoft.modelo.entidades.Rol;
 
 public class Usuario {
 

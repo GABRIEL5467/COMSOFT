@@ -1,5 +1,6 @@
 package com.uisrael.comsoft.modelo;
 
+import com.uisrael.comsoft.conexion.Conexion;
 import com.uisrael.comsoft.modelo.entidades.Usuario;
 import com.uisrael.comsoft.modelo.entidades.Serie;
 import com.uisrael.comsoft.modelo.entidades.Modelo;

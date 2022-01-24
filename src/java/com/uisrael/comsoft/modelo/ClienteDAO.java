@@ -1,5 +1,6 @@
 package com.uisrael.comsoft.modelo;
 
+import com.uisrael.comsoft.conexion.Conexion;
 import com.uisrael.comsoft.modelo.entidades.Cliente;
 import java.sql.ResultSet;
 import java.util.ArrayList;
