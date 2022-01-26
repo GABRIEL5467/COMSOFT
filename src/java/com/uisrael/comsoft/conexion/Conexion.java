@@ -21,7 +21,7 @@ public class Conexion {
         MysqlConnectionPoolDataSource ds = new MysqlConnectionPoolDataSource();
         ds.setServerName("localhost");
         ds.setPort(3306);
-        ds.setDatabaseName("JLTE");
+        ds.setDatabaseName("BDCOMSOFT");
         conexion = ds.getConnection("root", "");
 
         if (wTransaccion == true) {

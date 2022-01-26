@@ -130,7 +130,7 @@
                     <li class="nav-item <c:if test="${drop != null}"> menu-open </c:if>">
                     <a href="#" class="nav-link <c:if test="${drop != null}"> active </c:if>">
                             <i class="nav-icon fas fa-cogs"></i>
-                            <p>Configuración<i class="right fas fa-angle-left"></i></p>
+                            <p>Gestión<i class="right fas fa-angle-left"></i></p>
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
