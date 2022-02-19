@@ -33,7 +33,7 @@
 
                     <form action="Login?accion=login" method="post">
                         <div class="input-group mb-3">
-                            <input type="email" name="email" id="email" class="form-control" placeholder="Email" value="admin@admin.com">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Email" value="">
                             <div class="input-group-append">
                                 <div class="input-group-text">
                                     <span class="fas fa-envelope"></span>
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                         <div class="input-group mb-3">
-                            <input type="password" name="clave" id="clave" class="form-control" placeholder="Contraseña" value="123456">
+                            <input type="password" name="clave" id="clave" class="form-control" placeholder="Contraseña" value="">
                             <div class="input-group-append">
                                 <div class="input-group-text">
                                     <span class="fas fa-lock"></span>

@@ -37,11 +37,15 @@ public class OrdenController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
+           
             throws ServletException, IOException {
 
         if (request.getParameter("id") != null) {
+     try { 
             int ids = Integer.parseInt(request.getParameter("id"));
-            try {
+
+              
+            
                 MantenimientoDAO dao = new MantenimientoDAO();
                 Mantenimiento mante;
                 mante = new Mantenimiento();
@@ -68,8 +72,8 @@ public class OrdenController extends HttpServlet {
                 }
 
             } catch (Exception e) {
-                request.setAttribute("nav", "La orden no existe");
-                request.getRequestDispatcher("Inicio").forward(request, response);
+                request.setAttribute("nav", "Actualizado");
+                request.getRequestDispatcher("/Views/Admin/Mantenimientos.jsp").forward(request, response);                    
             }
         } else {
             request.setAttribute("nav", "La orden no existe");

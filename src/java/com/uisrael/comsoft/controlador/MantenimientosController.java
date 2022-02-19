@@ -227,7 +227,7 @@ public class MantenimientosController extends HttpServlet {
             this.jsonResponse(response, resJson);
         } catch (Exception e) {
             request.setAttribute("usuario", daor);
-            resJson = "{\"status\":false,\"message\":\"Nose puedo registar " + e.getMessage() + ".\"}";
+            resJson = "{\"status\":false,\"message\":\"No se puedo registar " + e.getMessage() + ".\"}";
             this.jsonResponse(response, resJson);
         }
     }

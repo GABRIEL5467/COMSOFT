@@ -1,3 +1,5 @@
+/* global Swal, Toast */
+
 const mod = "Servicio";
 const url = "Servicios";
 

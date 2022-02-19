@@ -1,3 +1,5 @@
+/* global Toast, parseFloat, Swal */
+
 const mod = "Mantenimieno";
 const url = "Mantenimientos";
 
@@ -49,7 +51,7 @@ const getContent = () => {
                     '<small>' + parseFloat(u.descuento).toFixed(2) + '</small>',
                     '<small>' + parseFloat(u.total).toFixed(2) + '</small>',
                     '<small>' + u.fecha + '</small>',
-                    '<small>' + u.f_entrega + '</small>',
+                    //'<small>' + u.f_entrega + '</small>',
                     '<button onclick="uEstado(' + u.idmante + ',' + cm + u.estado + cm + ')" class="border-0 badge badge-' + bg + '" ' + ce + '>' + u.estado + '</button>',
                     '<a href="Orden?id='+u.idmante+'" target="_blnak" class="btn btn-dark btn-sm"><i class="fas fa-print"></i></a><span onclick="uGeneral(' + u.idmante + ', ' + u.cliente.idcliente + ', ' + u.usuario.id + ', ' + cm + u.equipo + cm + ', ' + u.marca.idmarca + ', ' + u.modelo.idmodelo + ', ' + u.serie.idserie + ', ' + cm + u.diagnostico + cm + ', ' + cm + u.falla + cm + ', ' + cm + u.solucion + cm + ', ' + u.descuento + ', ' + u.total + ', ' + cm + u.estado + cm + ')" class="btn btn-info btn-sm ' + ac + '"><i class="fas fa-pencil-alt"></i></span><span onclick="uEstado(' + u.idmante + ', ' + cm + 'Eliminado' + cm + ')" class="btn btn-danger btn-sm ' + ac + '"><i class="fas fa-trash"></i></span>'
                 ]).draw(false);
@@ -206,7 +208,6 @@ const uEstado = (id, estado) => {
                         }
                     }
                 });
-
             }
         });
     } else {
@@ -279,11 +280,10 @@ const uGeneral = (id, cliente, tecnico, equipo, marca, modelo, serie, diagnostic
 
         }
     });
-
     setTimeout(function () {
         $("#modelo").val(modelo);
         $("#serie").val(serie);
-    }, 200)
+    }, 600)
 
     $("#mtitle").text("Actualizar " + mod);
     $("#mtexto").text("Actualizar");

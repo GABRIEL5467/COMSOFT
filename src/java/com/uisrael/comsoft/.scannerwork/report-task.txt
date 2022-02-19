@@ -1,0 +1,6 @@
+projectKey=sonar-scanner
+serverUrl=http://127.0.0.1:9000
+serverVersion=9.2.4.50792
+dashboardUrl=http://127.0.0.1:9000/dashboard?id=sonar-scanner
+ceTaskId=AX6Xcy1Ksd288TnJiZ-f
+ceTaskUrl=http://127.0.0.1:9000/api/ce/task?id=AX6Xcy1Ksd288TnJiZ-f

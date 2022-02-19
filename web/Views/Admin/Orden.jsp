@@ -126,8 +126,8 @@
                     </div>
                     <!-- /.col -->
                     <div class="col-6">
-                        <p class="lead">Monto a pagar: <%= (new java.util.Date()).toLocaleString()%></p>
-
+                       <!-- <p class="lead">Monto a pagar: <%= (new java.util.Date()).toLocaleString()%></p>-->
+                        <p class="lead">Monto a pagar:</p>
                         <div class="table-responsive">
                             <table class="table">
                                 <tr>
@@ -145,8 +145,39 @@
                             </table>
                         </div>
                     </div>
+                
                     <!-- /.col -->
                 </div>
+                <div class="row">
+                       <div class="col-6">
+                        <p class="lead">Términos y Condiciones</p>
+                        <p class="text-muted well well-sm shadow-none" style="margin-top: 10px;">
+                            1.-Retirar equipos antes de 30 dias.<br> 
+                            2.-El Cliente puede retirar el equipo una vez notificado.<br>  
+                            3.-Si el cliente no retira el artículo dejado a reparación despues 
+                            de los 30 días el departamento de servicio técnico dispondra 
+                               del mismo.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p class="lead" align="center">Acepto Condiciones</p>
+                        <p class="text-muted well well-sm shadow-none" style="margin-top: 10px;">
+                        <br>
+                        <p align="center"> ___________________________</p>
+                        <p align="center">Firma.</p>
+                        </br>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                
+                    <div class="col-12">
+                         <p class="text-muted well well-sm shadow-none" style="margin-top: 10px;" align="center">
+                             <font face="arial">*Dirección:Huancavilca N28-208 y Duchicela (Frente al Complejo, Deportivo de Liga Atahualpa).*<font><br> 
+                             *Telf.:22338-929  0984463249 * E-mail: comercialfranklin@gmail.com*<br>
+                         </p>
+                    </div>
+                   </row>
                 <!-- /.row -->
             </section>
             <!-- /.content -->

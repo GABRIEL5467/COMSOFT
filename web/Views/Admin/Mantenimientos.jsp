@@ -52,7 +52,7 @@
                                         <th>Des.</th>
                                         <th>Total</th>
                                         <th>Fecha</th>
-                                        <th>F. Entrega</th>
+                                        <!-- <th>F. Entrega</th> -->
                                         <th class="text-center">Estado</th>
                                         <th></th>
                                     </tr>
